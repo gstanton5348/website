@@ -1,16 +1,79 @@
+/* First Comment */
+
+*{
+  font-size: 100%;
+}
+
 body {
   background-color: LightBlue;
   color:red;
   font-family: 'Noto Sans HK', sans-serif;
+  font-size: 14px;
 }
+
+/* Heading styles */
 
 h1 {
   color: blue;
+  font-size: 36px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
+  font-style: italic;
 }
 
 header {
   background-color: brown:
   color: white;
+}
+
+p {
+  line-height: 1.5;
+  /* text-align: justify; */
+}
+
+/* a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+} */
+
+a:link,
+a:focus,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
 }
 
 section {
