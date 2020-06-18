@@ -2,6 +2,15 @@
 
 *{
   font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.title {
+  font-size: 48px;
+  text-decoration; underline;
 }
 
 body {
@@ -9,6 +18,12 @@ body {
   color:red;
   font-family: 'Noto Sans HK', sans-serif;
   font-size: 14px;
+}
+
+header,
+section,
+footer {
+  padding: 30px;
 }
 
 /* Heading styles */
@@ -30,6 +45,7 @@ h3 {
 h1, h2, h3 {
   font-weight: lighter;
   font-style: italic;
+  margin-bottom: 20px;
 }
 
 header {
@@ -39,7 +55,20 @@ header {
 
 p {
   line-height: 1.5;
+  margin: 15px 0;
   /* text-align: justify; */
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+header {
+  border-bottom: 5px solid grey;
+}
+
+img {
+  height: 300px;
 }
 
 /* a {
