@@ -13,11 +13,28 @@
   text-decoration; underline;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/river_in_the_mountains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   background-color: LightBlue;
   color:red;
   font-family: 'Noto Sans HK', sans-serif;
   font-size: 14px;
+}
+
+body {
+  background-image: url(images/more-leaves-on-green.png);
+  background-repeat: repeat;
 }
 
 header,
